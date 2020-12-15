@@ -1,5 +1,8 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+.idea/
+.pytest_cache/
+geckodriver.log
 *.py[cod]
 *$py.class
 
