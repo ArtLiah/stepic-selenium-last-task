@@ -23,7 +23,7 @@ import time
 def test_guest_can_add_product_to_basket(browser, link):
     page = ProductPage(browser, link)
     page.open()
-    page.add_tovar_basket()
+    page.add_product_to_basket()
     product_page.solve_quiz_and_get_code()
     time.sleep(1)
     product_page.should_add_correct_product_to_basket()
